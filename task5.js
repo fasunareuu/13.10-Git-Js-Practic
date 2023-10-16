@@ -1,8 +1,8 @@
     const readlineSync = require('readline-sync');
-    const x1Input = readlineSync.question('Введите x1: ');
-    const y1Input = readlineSync.question('Введите y1: ');
-    const x2Input = readlineSync.question('Введите x2: ');
-    const y2Input = readlineSync.question('Введите y2: ');
+    const x1Input = parseInt(readlineSync.question('Введите x1: '));
+    const y1Input = parseInt(readlineSync.question('Введите y1: '));
+    const x2Input = parseInt(readlineSync.question('Введите x2: '));
+    const y2Input = parseInt(readlineSync.question('Введите y2: '));
 
     function calculateDistance  (x1, y1, x2, y2)  {
 
